@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsappBlocker",
+  "version": "1.0",
+  "description": "Bloqueador de distrações para a hora de programar.",
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["bloqueio.js"],
+      "css": ["estilo.css"]
+    }
+  ]
+}

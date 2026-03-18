@@ -1,0 +1,28 @@
+/* estilo.css */
+
+/* Fundo preto absoluto e centralização total */
+body {
+    background: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+#tela-foco {
+    text-align: center;
+}
+
+/* Letras gigantes e limpas */
+#tela-foco h1 {
+    color: #fef08a; /* Amarelo claro sólido, sem brilho */
+    font-size: 7rem; /* Tamanho massivo */
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -3px; /* Letras mais unidas para dar peso */
+    line-height: 1.1;
+}

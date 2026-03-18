@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "WhatsappBlocker",
+  "name": "Foco Profundo",
   "version": "1.0",
   "description": "Bloqueador de distrações para a hora de programar.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Painel de Foco"
+  },
   "content_scripts": [
     {
       "matches": ["*://web.whatsapp.com/*"],

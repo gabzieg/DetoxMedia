@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <div class="menu-container">
-        <h2 class="titulo">Foco amigão</h2>
-        <div class="status-box">
-            <span class="luz-alerta"></span>
-            <p>WhatsApp Bloqueado</p>
+        <h2 class="titulo">Focus Mode</h2>
+        
+        <div class="opcoes-bloqueio">
+            <label class="status-box">
+                <input type="checkbox" id="block-whatsapp" checked>
+                <span class="luz-alerta"></span>
+                <p>WhatsApp</p>
+                <span class="contador" id="count-whatsapp">0 today</span>
+            </label>
+            <label class="status-box">
+                <input type="checkbox" id="block-instagram" checked>
+                <span class="luz-alerta"></span>
+                <p>Instagram</p>
+                <span class="contador" id="count-instagram">0 today</span>
+            </label>
+            <label class="status-box">
+                <input type="checkbox" id="block-facebook" checked>
+                <span class="luz-alerta"></span>
+                <p>Facebook</p>
+                <span class="contador" id="count-facebook">0 today</span>
+            </label>
         </div>
+
         <hr class="linha">
-        <p class="mensagem">Seu tempo é inegociável. Volte ao código.</p>
+        <p class="mensagem">Your time is non-negotiable. Back to the focus.</p>
+        
+        <div class="estatisticas">
+            <p>Total blocks: <span id="total-blocks">0</span></p>
+        </div>
     </div>
+    <script src="popup.js"></script>
 </body>
 </html>

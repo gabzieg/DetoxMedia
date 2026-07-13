@@ -1,17 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "Foco Profundo",
+  "name": "Social Media Blocker",
   "version": "1.0",
-  "description": "Bloqueador de distrações para a hora de programar.",
+  "description": "A simple distraction blocker to keep you focused.",
+  "permissions": [
+    "storage"
+  ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Painel de Foco"
+    "default_title": "Focus Panel"
   },
   "content_scripts": [
     {
-      "matches": ["*://web.whatsapp.com/*"],
+      "matches": [
+        "*://web.whatsapp.com/*",
+        "*://*.instagram.com/*",
+        "*://*.facebook.com/*"
+      ],
       "js": ["bloqueio.js"],
-      "css": ["estilo.css"]
+      "css": ["estilo.css"],
+      "run_at": "document_start"
     }
   ]
 }

@@ -76,7 +76,7 @@ function aplicarBloqueio(site) {
         <head>
             <title>Blocked</title>
         </head>
-        <body style="overflow: hidden; margin: 0; padding: 0;">
+        <body class="tela-foco-ativa" style="overflow: hidden; margin: 0; padding: 0;">
             <div id="tela-foco">
                 <h1>BACK TO<br>THE FOCUS.</h1>
             </div>

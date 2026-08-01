@@ -1,7 +1,7 @@
 /* estilo.css */
 
 /* Fundo preto absoluto e centralização total */
-body {
+body.tela-foco-ativa {
     background: #000000 !important;
     margin: 0 !important;
     padding: 0 !important;

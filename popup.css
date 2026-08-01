@@ -1,11 +1,12 @@
-/* popup.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
 body {
     width: 260px; /* Largura do menu rápido */
     margin: 0;
     padding: 20px;
-    background-color: #000000; /* Fundo preto absoluto */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #ffffff;
+    background-color: #ffffff; /* Fundo branco puro */
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #000000;
 }
 
 .menu-container {
@@ -13,7 +14,7 @@ body {
 }
 
 .titulo {
-    color: #fef08a; /* Amarelo claro sólido */
+    color: #000000; /* Preto puro */
     margin: 0 0 15px 0;
     font-size: 1.2rem;
     font-weight: 900;
@@ -31,10 +32,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #111111;
+    background-color: #f5f5f5; /* Cinza bem claro */
     padding: 10px 15px;
     border-radius: 8px;
-    border: 1px solid #333333;
+    border: 1px solid #e0e0e0;
     cursor: pointer;
     transition: background-color 0.2s;
     position: relative;
@@ -43,8 +44,8 @@ body {
 .contador {
     margin-left: auto;
     font-size: 0.75rem;
-    color: #888888;
-    background-color: #222222;
+    color: #666666;
+    background-color: #e0e0e0;
     padding: 2px 6px;
     border-radius: 4px;
 }
@@ -52,7 +53,7 @@ body {
 .estatisticas {
     margin-top: 15px;
     font-size: 0.85rem;
-    color: #aaaaaa;
+    color: #555555;
 }
 
 .estatisticas p {
@@ -60,12 +61,12 @@ body {
 }
 
 .estatisticas span {
-    color: #fef08a;
+    color: #000000;
     font-weight: bold;
 }
 
 .status-box:hover {
-    background-color: #222222;
+    background-color: #ebebeb;
 }
 
 .status-box input[type="checkbox"] {
@@ -75,7 +76,7 @@ body {
 .luz-alerta {
     width: 10px;
     height: 10px;
-    background-color: #555555;
+    background-color: #cccccc;
     border-radius: 50%;
     display: inline-block;
     margin-right: 12px;
@@ -84,33 +85,33 @@ body {
 }
 
 .status-box input[type="checkbox"]:checked + .luz-alerta {
-    background-color: #fef08a;
-    box-shadow: 0 0 8px rgba(254, 240, 138, 0.5);
+    background-color: #000000; /* Bolinha ativada fica preta */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .status-box p {
     margin: 0;
     font-size: 0.9rem;
     font-weight: 600;
-    color: #888888;
+    color: #666666; /* Cinza médio quando desativado */
     transition: color 0.3s ease;
 }
 
 .status-box input[type="checkbox"]:checked ~ p {
-    color: #ffffff;
+    color: #000000; /* Preto quando ativado */
 }
 
 .linha {
     border: none;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #fef08a, transparent);
+    background: linear-gradient(90deg, transparent, #000000, transparent);
     margin: 20px 0;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .mensagem {
     font-size: 0.85rem;
-    color: #aaaaaa;
+    color: #555555;
     line-height: 1.4;
     margin: 0;
 }

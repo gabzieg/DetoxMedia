@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Social Media Blocker",
+  "name": "DetoxMedia",
   "version": "1.0",
   "description": "A simple distraction blocker to keep you focused.",
   "permissions": [

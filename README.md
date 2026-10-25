@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="icon128.png" alt="Social Media Blocker Logo" width="80" height="80" />
+  <img src="icon128.png" alt="DetoxMedia Logo" width="80" height="80" />
 </p>
 
-<h1 align="center">Social Media Blocker</h1>
+<h1 align="center">DetoxMedia</h1>
 
 <p align="center">
   <strong>Break the muscle-memory tab habit. Block distracting social networks during deep work and track every impulse attempt.</strong>
@@ -17,13 +17,13 @@
 
 ---
 
-## 💡 Why Social Media Blocker?
+## 💡 Why DetoxMedia?
 
 > *"Your time is non-negotiable. Back to the focus."*
 
 Most distractions during work or study aren't conscious decisions—they are **muscle memory**. Every time you hit a hard problem or wait 3 seconds for code to compile, your fingers automatically type `web.whatsapp.com`, `instagram.com`, or `facebook.com`.
 
-**Social Media Blocker** intercepts that reflex at `document_start`—before the feed or messages ever load—and replaces the page with a clean, high-contrast **Focus Shield**. Even better, it counts how many times your muscle memory tried to open each platform so you can actually see your habits improve.
+**DetoxMedia** intercepts that reflex at `document_start`—before the feed or messages ever load—and replaces the page with a clean, high-contrast **Focus Shield**. Even better, it counts how many times your muscle memory tried to open each platform so you can actually see your habits improve.
 
 ---
 
@@ -43,14 +43,14 @@ Works on **Google Chrome**, **Brave**, **Microsoft Edge**, **Vivaldi**, and **Op
 1. **Download this repository:**
    - Click the green **Code** button above and select **Download ZIP** (then extract it), *or* clone via terminal:
      ```bash
-     git clone https://github.com/gabzieg/SocialMediaBlocker.git
+     git clone https://github.com/gabzieg/DetoxMedia.git
      ```
 2. **Open your browser's Extensions page:**
    - Chrome: `chrome://extensions/`
    - Brave: `brave://extensions/`
    - Edge: `edge://extensions/`
 3. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top-right corner.
-4. **Load the Extension:** Click **Load unpacked** (top-left) and select the `SocialMediaBlocker` folder.
+4. **Load the Extension:** Click **Load unpacked** (top-left) and select the `DetoxMedia` folder.
 5. **Stay Focused:** Click the extension icon in your toolbar anytime to toggle platforms or check how many distraction impulses it caught!
 
 ---
